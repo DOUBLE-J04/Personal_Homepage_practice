@@ -1,4 +1,4 @@
-#Personal_Homepage_practice (with html5, css)
+#Personal Homepage practice (with html5, css)
 
-This repository is for Personal_Homepage_practice.
+This repository is for practice to make personal homepage
 
