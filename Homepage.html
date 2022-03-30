@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Double_J's Homepage</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <!-- internal css style -->
+    <style>
+      pic_3 div{
+        display: inline-block;
+        margin-top: 30px;
+        margin-left : 10px;
+        margin-right : 10px;
+        width:250px;
+        height:250px;
+      }
+      pic_4 div{
+        display: inline-block;
+        background-repeat : no-repeat;
+        margin-top: 30px;
+        margin-left : 20px;
+        margin-right : 20px;
+        width:196px;
+        height:196px;
+      }
+      pic_4 p{
+        display: inline-block;
+        margin-top: 30px;
+        margin-left : 20px;
+        margin-right : 20px;
+        width:196px;
+        height:196px;
+      }
+      style_1 {
+        list-style-type: circle;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div style = "float : left; width : 63%; margin-bottom: 30px; display : inline-block">
+      <h1>Welcome to Double_J's Homepage</h1><br>
+      <!-- page header -->
+      <!-- use html form element text, password, submit, checkbox, and radio button in buttom of page
+           use required, autofocus, placeholder -->
+      <form style = "width : 80%; float : left;">
+        <input type="text" placeholder="id" autofocus required>
+        <input type="password" placeholder="password" required>
+        <input type="submit" value="Login"><br><br>
+        <label style="margin-left:10px;">maintain your login?</label>
+        <input type="checkbox">
+      </form>
+    </div>
+    <div style = "margin-left: 20px;margin-top: 40px; float : right; margin-bottom: 30px;">
+      <iframe src="https://www.youtube.com/embed/lj4VncsqFQw?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <table class="b">
+      <tr>
+          <td width = "33%"><a href="#personal_info"><li><strong>personal_info<hr></strong></li></a></td>
+          <td width = "33%"><a href="#skills"><li><strong>skills<hr></strong></li></a></td>
+          <td width = "33%"><a href="#my_work"><li><strong>my work<hr></strong></li></a></td>
+      </tr>
+    </table>
+    <div id="bannerimg" style= "background-image : url(freebanner.jpg); background-size: 100% 800px;">
+      <div>
+      <button class = "banner_btn1" type="button" onclick="javascript:sensorBtnClick('btn1');">prev</button>
+      <button class = "banner_btn2" type="button" onclick="javascript:sensorBtnClick('btn2');">next</button>
+      </div>
+    </div>
+
+    <sub_body>
+      <div class="outer_layout">
+        <h3 style="margin-bottom:40px" ># Which skills do you recommend?</h3>
+        <form style="text-align:center; font-size: 15px;">
+          <label><em><b>Doker</b></em></label>
+          <input type="radio" name="select">
+          <br><br>
+          <label><em><b>React.js</b></em></label>
+          <input type="radio" name="select">
+          <br><br>
+          <input type="submit" value="submit">
+        </form>
+      </div>
+
+      <!-- width = 1080px -->
+      <div class="middle_layout">
+      <!-- first content personal_info -->
+        <div class="content">
+          <pic_3>
+            <div style ="background: url(MY.PNG); background-size: 255px 255px; margin-top : 60px;"></div>
+          </pic_3>
+          <div class="container" style = "width : 780px;">
+            <h2 id = "personal_info"># Personal info</h2> <hr>
+            <table style = "width : 780px;">
+              <tr>
+                <td width = "50%">
+                  <p>&nbsp Hello visitor's This is My first Homepage.</p>
+                  <p>&nbsp My name is <b>Double_J.</b></p>
+                  <p>&nbsp Studying S/W in CBNU.</p>
+                  <p>&nbsp This is my Github img</p>
+                </td>
+                <td width = "50%">
+                <style_1>
+                  <ul>
+                    <li><b>&nbsp E-MAIL :</b> <em>my@email.com(not real)</em></li>
+                    <li><b>&nbsp phone :</b> xxx-xxxx-xxxx</li>
+                    <li><b>&nbsp Github :</b> <a class="link" href="https://github.com/DOUBLE-J04" target = "_blank" >https://github.com/DOUBLE-J04 </a></li>
+                  </ul>
+                </style_1>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- second content skill & experience -->
+        <div class="content">
+          <h2 id = "skills" style="text-align: center;"># Skills & Experience</h2>
+          <pic_4>
+            <div style="background: url(java.jpg); background-size: 196px 196px; margin-left : 68px; "></div>
+            <div style="background: url(c.png); background-size: 196px 196px;"></div>
+            <div style="background: url(spring.png); background-size: 196px 196px;"></div>
+            <div style="background: url(python.png); background-size: 196px 196px; margin-right : 68px; background-color: white;"></div>
+          </pic_4>
+          <ol class = "a">
+            <li class = "a">&nbsp I have experience at <b>Spring framework.</b></li>
+            <li class = "a">&nbsp And I also can use &nbsp <b>c++,&nbsp java,&nbsp python.</b></li>
+            <li class = "a">&nbsp I want to learn and experience more about programming languages.</li>
+          </ol>
+        </div>
+        <!-- thrid content My work list -->
+        <div class="content">
+          <h2 id = "my_work"># My work list</h2><hr>
+          <table class="a">
+            <tr>
+              <th>python</th>
+              <th colspan="2">java</th>
+              <th>HTML,CSS,JS</th>
+            </tr>
+            <tr>
+              <td width = "250">
+                <ul>
+                  <li>Plaformer games</li>
+                </ul>
+              </td>
+              <td width = "250">
+                <ul>
+                  <li>Eclipse Jsp web project</li>
+                </ul>
+              </td>
+              <td width = "250">
+                <ul>
+                  <li>Spring State board project</li>
+                </ul>
+              </td>
+              <td width = "250">
+                <ul>
+                  <li>Html homepage project (on going)</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!--last-->
+      </div>
+    </sub_body>
+  </body>
+</html>
